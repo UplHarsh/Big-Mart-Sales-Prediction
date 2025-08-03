@@ -2,13 +2,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from typing import Dict, List, Tuple, Any, Optional
 import warnings
 warnings.filterwarnings('ignore')
 import xgboost as xgb
 from sklearn.ensemble import HistGradientBoostingRegressor, RandomForestRegressor, AdaBoostRegressor
 from sklearn.linear_model import LinearRegression, Ridge, HuberRegressor, TheilSenRegressor
-from sklearn.neighbors import KNeighborsRegressor
 from sklearn.neural_network import MLPRegressor
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split, cross_val_score
@@ -351,14 +349,10 @@ def main():
             hidden_layer_sizes=(275, 108,100), max_iter=2500, random_state=42,
             learning_rate_init=0.0002, early_stopping=True
         ),
-        'Ridge': Ridge(alpha=5.0),
-        'HuberRegressor': HuberRegressor(epsilon=1.35, max_iter=200),
-        'TheilSenRegressor': TheilSenRegressor(random_state=42, max_subpopulation=1000),
         'RandomForest': RandomForestRegressor(
             n_estimators=250, max_depth=10, min_samples_split=5,
             random_state=42, n_jobs=-1
-        ),
-        'KNeighbors': KNeighborsRegressor(n_neighbors=8, weights='distance')
+        )
     }
     
     print(f"Initialized {len(models)} models:")
