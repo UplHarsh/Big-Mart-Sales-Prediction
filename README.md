@@ -92,14 +92,14 @@ Evaluated 6 regression algorithms:
 ## Results and Performance
 
 ### Model Comparison
-| Model | Validation RMSE | R² Score | Training RMSE | Overfitting |
-|-------|----------------|----------|---------------|-------------|
-| MLPRegressor | 1,014.23 | 0.5689 | 951.42 | 62.81 |
-| Random Forest | 1,029.61 | 0.5559 | 365.89 | 663.72 |
-| HistGradient Boosting | 1,050.83 | 0.5375 | 833.71 | 217.12 |
-| XGBoost | 1,058.45 | 0.5310 | 743.28 | 315.17 |
-| Linear Regression | 1,128.75 | 0.4711 | 1,128.08 | 0.67 |
-| AdaBoost | 1,272.84 | 0.3393 | 1,097.45 | 175.39 |
+| Model | Validation RMSE | R² Score | Training RMSE |
+|-------|----------------|----------|---------------|
+| MLPRegressor | 1,014.23 | 0.5689 | 951.42 |
+| Random Forest | 1,029.61 | 0.5559 | 365.89 |
+| HistGradient Boosting | 1,050.83 | 0.5375 | 833.71 |
+| XGBoost | 1,058.45 | 0.5310 | 743.28 |
+| Linear Regression | 1,128.75 | 0.4711 | 1,128.08 |
+| AdaBoost | 1,272.84 | 0.3393 | 1,097.45 |
 
 ### Performance Analysis
 - **Best Performance**: MLPRegressor with 1,014 RMSE
