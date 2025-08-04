@@ -343,14 +343,14 @@ def main():
             n_jobs=-1
         ),
         'HistGradientBoosting': HistGradientBoostingRegressor(random_state=42),
-        'AdaBoost': AdaBoostRegressor(n_estimators=300, learning_rate=0.01, random_state=42),
+        'AdaBoost': AdaBoostRegressor(n_estimators=300, learning_rate=0.0002, random_state=42),
         'LinearRegression': LinearRegression(),
         'MLPRegressor': MLPRegressor(
-            hidden_layer_sizes=(275, 108,100), max_iter=2500, random_state=42,
+            hidden_layer_sizes=(280, 108,100), max_iter=2500, random_state=42,
             learning_rate_init=0.0002, early_stopping=True
         ),
         'RandomForest': RandomForestRegressor(
-            n_estimators=250, max_depth=10, min_samples_split=5,
+            n_estimators=400, max_depth=30, min_samples_split=5,
             random_state=42, n_jobs=-1
         )
     }
