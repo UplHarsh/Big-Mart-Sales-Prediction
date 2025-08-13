@@ -1,0 +1,289 @@
+{
+  "candidate_info": {
+    "name": "Harsh Soni",
+    "current_role": "Data Scientist at UPL Ltd.",
+    "experience_years": 3,
+    "key_skills": [
+      "GenAI",
+      "LLM",
+      "Azure OpenAI",
+      "Time Series Forecasting",
+      "Customer Churn",
+      "XGBoost",
+      "Random Forest",
+      "Deep Learning",
+      "Python",
+      "R",
+      "SQL",
+      "Power BI",
+      "Azure Databricks"
+    ],
+    "major_projects": [
+      "GenAI Document Automation Platform",
+      "SKU-level Demand Forecasting",
+      "Customer Churn Prediction",
+      "Text-to-SQL Application"
+    ],
+    "business_impact": {
+      "cost_savings": "$23,000 + $1.3M",
+      "revenue_generated": "$3M + $5.77M",
+      "accuracy_improvements": "30% reduction in forecast errors"
+    }
+  },
+  "interview_metrics": {
+    "total_questions": 50,
+    "total_score": 366,
+    "max_possible_score": 446,
+    "overall_percentage": 82.0627802690583,
+    "overall_rating": "GOOD - HIRE",
+    "duration_minutes": 95.5
+  },
+  "category_performance": {
+    "data_science_fundamentals": {
+      "scores": [
+        7,
+        6,
+        5,
+        8,
+        7
+      ],
+      "max_scores": [
+        8,
+        8,
+        8,
+        5,
+        5
+      ],
+      "percentage": 82.9
+    },
+    "machine_learning_algorithms": {
+      "scores": [
+        9,
+        8,
+        6,
+        9,
+        7,
+        8,
+        6,
+        7,
+        8,
+        5
+      ],
+      "max_scores": [
+        10,
+        10,
+        8,
+        10,
+        10,
+        8,
+        8,
+        8,
+        10,
+        10
+      ],
+      "percentage": 78.0
+    },
+    "feature_engineering": {
+      "scores": [
+        8,
+        7,
+        6,
+        9,
+        7,
+        9,
+        6,
+        7
+      ],
+      "max_scores": [
+        10,
+        8,
+        8,
+        10,
+        8,
+        10,
+        8,
+        8
+      ],
+      "percentage": 87.1
+    },
+    "model_evaluation": {
+      "scores": [
+        6,
+        8,
+        7,
+        5,
+        6,
+        7
+      ],
+      "max_scores": [
+        8,
+        10,
+        8,
+        10,
+        10,
+        8
+      ],
+      "percentage": 72.2
+    },
+    "business_understanding": {
+      "scores": [
+        9,
+        8,
+        9,
+        7,
+        8,
+        7
+      ],
+      "max_scores": [
+        10,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "percentage": 96.0
+    },
+    "technical_implementation": {
+      "scores": [
+        9,
+        8,
+        7,
+        10,
+        6,
+        8,
+        7,
+        6
+      ],
+      "max_scores": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "percentage": 76.3
+    },
+    "advanced_topics": {
+      "scores": [
+        10,
+        9,
+        8,
+        5,
+        6
+      ],
+      "max_scores": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "percentage": 76.0
+    },
+    "coding_and_implementation": {
+      "scores": [
+        7,
+        8
+      ],
+      "max_scores": [
+        8,
+        8
+      ],
+      "percentage": 93.8
+    }
+  },
+  "detailed_scores": {
+    "dsf_001": 7,
+    "dsf_002": 6,
+    "dsf_003": 5,
+    "dsf_004": 8,
+    "dsf_005": 7,
+    "mla_001": 9,
+    "mla_002": 8,
+    "mla_003": 6,
+    "mla_004": 9,
+    "mla_005": 7,
+    "mla_006": 8,
+    "mla_007": 6,
+    "mla_008": 7,
+    "mla_009": 8,
+    "mla_010": 5,
+    "fe_001": 8,
+    "fe_002": 7,
+    "fe_003": 6,
+    "fe_004": 9,
+    "fe_005": 7,
+    "fe_006": 9,
+    "fe_007": 6,
+    "fe_008": 7,
+    "me_001": 6,
+    "me_002": 8,
+    "me_003": 7,
+    "me_004": 5,
+    "me_005": 6,
+    "me_006": 7,
+    "bu_001": 9,
+    "bu_002": 8,
+    "bu_003": 9,
+    "bu_004": 7,
+    "bu_005": 8,
+    "bu_006": 7,
+    "ti_001": 9,
+    "ti_002": 8,
+    "ti_003": 7,
+    "ti_004": 10,
+    "ti_005": 6,
+    "ti_006": 8,
+    "ti_007": 7,
+    "ti_008": 6,
+    "at_001": 10,
+    "at_002": 9,
+    "at_003": 8,
+    "at_004": 5,
+    "at_005": 6,
+    "ci_001": 7,
+    "ci_002": 8
+  },
+  "timestamp": "2025-08-13T07:24:20.366769",
+  "strengths": [
+    "Business Understanding (96.0%) - Exceptional ability to translate technical work into business impact",
+    "Feature Engineering (87.1%) - Strong data preprocessing and feature creation skills",
+    "Coding & Implementation (93.8%) - Excellent practical programming abilities",
+    "Advanced Topics (76.0%) - Good grasp of cutting-edge technologies like GenAI and LLMs"
+  ],
+  "areas_for_improvement": [
+    "Model Evaluation (72.2%) - Could benefit from deeper understanding of validation strategies",
+    "Causal Inference - Opportunity to strengthen skills in measuring true business impact",
+    "Deep Learning Architecture - Room for growth in advanced neural network design",
+    "Statistical Foundations - Enhance theoretical understanding of core concepts"
+  ],
+  "hiring_recommendation": {
+    "decision": "HIRE",
+    "confidence": "High",
+    "reasoning": [
+      "Strong technical foundation with 3 years of relevant experience",
+      "Proven track record of business impact ($8.77M revenue generated)",
+      "Excellent alignment with current GenAI and forecasting trends",
+      "Solid performance across most technical categories",
+      "Ready for senior data scientist responsibilities with some mentoring"
+    ],
+    "suggested_role_level": "Senior Data Scientist",
+    "onboarding_focus": [
+      "Advanced statistical methods and validation techniques",
+      "Causal inference methodologies",
+      "Deep learning architecture design",
+      "Company-specific domain knowledge transfer"
+    ]
+  },
+  "interviewer_notes": [
+    "Candidate demonstrated strong practical experience throughout the interview",
+    "Particularly impressive responses on business impact measurement and GenAI applications",
+    "Some theoretical gaps but compensated by hands-on expertise",
+    "Clear communication skills and ability to explain complex concepts",
+    "Enthusiastic about learning and professional development"
+  ]
+}
